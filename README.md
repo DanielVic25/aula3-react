@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aula 3 React
 
 Projeto desenvolvido utilizando React com a ferramenta Vite durante a Aula 3 da disciplina de Desenvolvimento Front-End.
@@ -70,3 +71,6 @@ npm run dev
 ```
 
 depois acesse o pelo URL do projeto, utiliznaodo comando npm run dev.
+=======
+
+>>>>>>> 73715949d8df726f53d3ddd45c74e1887de36318
