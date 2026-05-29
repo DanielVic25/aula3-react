@@ -1,16 +1,72 @@
-# React + Vite
+# Aula 3 React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido utilizando React com a ferramenta Vite durante a Aula 3 da disciplina de Desenvolvimento Front-End.
 
-Currently, two official plugins are available:
+## Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Praticar os conceitos fundamentais do React, incluindo:
 
-## React Compiler
+* JSX
+* Componentes funcionais
+* Composição de componentes
+* Expressões JavaScript no JSX
+* Estilização com CSS
+* Estrutura de aplicações React com Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Atividades Implementadas
 
-## Expanding the ESLint configuration
+### Atividade 01
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Criação do projeto React utilizando a ferramenta Vite, executando o código: npm create vite@latest.
+
+### Atividade 02
+
+Instalação das dependências e execução do servidor de desenvolvimento.
+
+### Atividade 03
+
+Criação do componente funcional `Saudacao`.
+
+### Atividade 04
+
+Criação do componente `Cartao` utilizando um único elemento raiz.
+
+### Atividade 05
+
+Uso de expressões JavaScript dentro do JSX.
+
+### Atividade 06
+
+Aplicação de estilos inline e atributos JSX.
+
+### Atividade 07
+
+Separação da estilização em arquivos CSS externos.
+
+### Atividade 08
+
+Criação do componente `Cabecalho` e composição da interface.
+
+### Atividade 09
+
+Entendimento da estrutura `main.jsx`, `index.html` e `ReactDOM.createRoot()`.
+
+### Atividade 10
+
+Desenvolvimento de uma mini aplicação React completa utilizando componentes reutilizáveis.
+
+## Tecnologias Utilizadas
+
+* React
+* Vite
+* JavaScript
+* CSS
+
+## Como executar o projeto
+
+```bash
+npm install
+npm run dev
+```
+
+depois acesse o pelo URL do projeto, utiliznaodo comando npm run dev.
