@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Aula 3 React
 
 Projeto desenvolvido utilizando React com a ferramenta Vite durante a Aula 3 da disciplina de Desenvolvimento Front-End.
@@ -26,35 +26,35 @@ Instalação das dependências e execução do servidor de desenvolvimento.
 
 ### Atividade 03
 
-Criação do componente funcional `Saudacao`.
+Criação do componente funcional `Saudacao` colocando essa mesagem "Olá, turma da Aula 3! introduindo" e importando no App.jsx.
 
 ### Atividade 04
 
-Criação do componente `Cartao` utilizando um único elemento raiz.
+Nesta atividade, foram utilizadas constantes, funções e expressões JSX para exibir dinamicamente o título, o progresso de conclusão dos tópicos e a quantidade de tópicos restantes no componente `Cartao`.
 
 ### Atividade 05
 
-Uso de expressões JavaScript dentro do JSX.
+Nesta atividade, foram utilizadas expressões JSX para exibir informações dinâmicas no componente `Cartao`, incluindo variáveis, operações matemáticas e chamadas de função para calcular e mostrar o progresso e os tópicos restantes.
 
 ### Atividade 06
 
-Aplicação de estilos inline e atributos JSX.
+Nesta atividade, foram aplicados estilos inline no componente Cartao utilizando `style={{ }}`, além do uso de `className` e propriedades em `camelCase`. Também foi criada uma variável de estilo reutilizável para personalizar elementos da lista.
 
 ### Atividade 07
 
-Separação da estilização em arquivos CSS externos.
+Nesta atividade, os estilos inline do componente `Cartao` foram substituídos por uma folha de estilo externa (`Cartao.css`). Foram criadas classes CSS para estilizar o cartão, o título e os itens da lista, utilizando `className` para aplicar os estilos definidos no arquivo CSS.
 
 ### Atividade 08
 
-Criação do componente `Cabecalho` e composição da interface.
+Criação do componente reutilizável `Cabecalho`, responsável por exibir o título da aplicação e um subtítulo. O componente foi estilizado com CSS e integrado ao `App.jsx`, compondo a interface juntamente com os componentes `Saudacao e Cartao` dentro de um único `Fragment`.
 
 ### Atividade 09
 
-Entendimento da estrutura `main.jsx`, `index.html` e `ReactDOM.createRoot()`.
+Análise da estrutura de inicialização do React, compreendendo como a aplicação é renderizada a partir do fluxo `index.html → main.jsx → App.jsx → DOM`. Foram realizados testes alterando o identificador do elemento raiz (`root`) para verificar como o React conecta os componentes à página e como o método `createRoot()` monta a aplicação no navegador.
 
 ### Atividade 10
 
-Desenvolvimento de uma mini aplicação React completa utilizando componentes reutilizáveis.
+Desenvolvimento de uma página pessoal utilizando React e Vite, aplicando os conceitos de JSX, componentes funcionais, composição de componentes e estilização com CSS externo. A aplicação foi estruturada com os componentes `Cabecalho, Saudacao, Cartao e Rodape`, incluindo informações pessoais e acadêmicas, além do uso de expressões JSX para exibição dinâmica de dados. O projeto foi renderizado através do `createRoot()` em `main.jsx` e executado em `React.StrictMode`.
 
 ## Tecnologias Utilizadas
 
@@ -71,6 +71,4 @@ npm run dev
 ```
 
 depois acesse o pelo URL do projeto, utiliznaodo comando npm run dev.
-=======
 
->>>>>>> 73715949d8df726f53d3ddd45c74e1887de36318

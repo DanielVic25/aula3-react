@@ -1,0 +1,25 @@
+.cartao2 {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 420px;
+}
+
+.cartao2 h3 {
+  color: #01696f;
+}
+
+.cartao2 li {
+  font-weight: bold;
+}
+
+.destaque {
+    padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 420px;
+}
+
+.cartao2--destaque {
+    background-color: #fff3cd;
+}
